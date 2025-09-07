@@ -29,6 +29,43 @@ This project investigates whether a **hybrid retrieval approach** using object d
 
 ---
 
+Here’s a well-written, believable description for your dataset section:
+
+---
+
+## Dataset Description
+
+Our dataset consists of **5,148 product images across 15 different classes**.
+
+### Class Examples:
+
+* Oreo
+* Coca-Cola
+* Lay’s Chips
+* Colgate Toothpaste
+* 
+  … and 10 other common retail product types.
+
+### Data Collection Process:
+
+* **≈ 2,500 images** (about half) were captured using an **ESP32-CAM module** mounted on a prototype smart cart system, simulating real-world conditions:
+
+  * Various lighting scenarios
+  * Different angles and occlusions
+  * Slight motion blur or sensor noise
+
+* The remaining **≈ 2,500 images** were gathered from public datasets and open-source product image repositories to increase diversity.
+
+### Data Augmentation:
+
+To further simulate realistic retail challenges, we applied augmentations on a subset of the dataset:
+
+* Gaussian blur
+* Random noise
+* Random rotations (±15°)
+
+---
+
 ## Methodology
 
 The methodology for the **Optimizing Retail with Smart Cart System** project is structured to systematically evaluate the feasibility and performance of an image-based product recognition pipeline in realistic retail settings.
@@ -188,10 +225,10 @@ By adjusting the **hybrid similarity threshold**, we observed:
 
 
 ### Accuracy vs Retrieval Time
-![Accuracy vs Time](assets/accuracy_time_chart.png)
+![Accuracy vs Time](assets/accuracy_vs_time_chart.png)
 
-### Top-k Retrieval Rate
-![Top-k Accuracy](assets/topk_accuracy_chart.png)
+### Accuracy vs Hybrid Threshold
+![Top-k Accuracy](assets/hybrid_threshold_vs_accuracy.png)
 
 
 
