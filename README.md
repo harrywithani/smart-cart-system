@@ -33,8 +33,6 @@ This project investigates whether a **hybrid retrieval approach** using object d
 
 The methodology for the **Optimizing Retail with Smart Cart System** project is structured to systematically evaluate the feasibility and performance of an image-based product recognition pipeline in realistic retail settings.
 
----
-
 ### 1. Dataset Preparation
 
 - **Data Sources:** We collected images of retail products from a curated dataset, covering multiple brands and packaging variations.
@@ -51,8 +49,6 @@ The methodology for the **Optimizing Retail with Smart Cart System** project is 
         These augmentations allow us to assess **robustness under challenging visual conditions**.
         
 
----
-
 ### 2. System Design
 
 The pipeline integrates object detection, embedding-based retrieval, and hybrid scoring:
@@ -67,8 +63,6 @@ The pipeline integrates object detection, embedding-based retrieval, and hybrid 
     
 
 This modular design allows **comparison across multiple configurations**, e.g., CLIP embeddings vs. ResNet embeddings, FAISS Flat vs. IVFPQ indexing, and hybrid vs. single-metric scoring.
-
----
 
 ### 3. Experimental Setup
 
@@ -91,8 +85,6 @@ To evaluate the effectiveness of the system:
 - **Threshold Tuning:** Hybrid scores were thresholded at multiple levels to find the optimal cutoff for maximal top-1 accuracy.
     
 
----
-
 ### 4. Evaluation Metrics
 
 Performance was quantitatively assessed using:
@@ -108,8 +100,6 @@ Performance was quantitatively assessed using:
 - **Confusion Matrix (optional):** Visual representation of misclassifications across product categories.
     
 
----
-
 ### 5. Analysis and Interpretation
 
 - **Comparative Analysis:** We compared retrieval-based approaches against the CNN baseline to demonstrate the advantage of embedding-based retrieval.
@@ -121,8 +111,6 @@ Performance was quantitatively assessed using:
 - **Ablation Insights:** Individual contributions of embeddings, indexing methods, and hybrid scoring were evaluated to highlight pipeline improvements.
     
 
----
-
 ### 6. Reproducibility and Scalability
 
 - The methodology is **modular** and can accommodate new products without retraining the entire system.
@@ -132,9 +120,6 @@ Performance was quantitatively assessed using:
 
 ---
 
-Here’s a polished **Results / Evaluation** section you can directly use in your documentation or README:
-
----
 ## System Workflow
 
 ```mermaid
