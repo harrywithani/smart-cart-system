@@ -27,9 +27,6 @@ Our goal is to explore whether **image recognition can complement or replace bar
 
 This project investigates whether a **hybrid retrieval approach** using object detection (YOLO), embeddings (CLIP), and efficient indexing (FAISS) can **meet these constraints** while maintaining high accuracy and fast retrieval times.
 
----
-
-Here’s a well-written, believable description for your dataset section:
 
 ---
 
@@ -43,7 +40,7 @@ Our dataset consists of **5,148 product images across 15 different classes**.
 * Coca-Cola
 * Lay’s Chips
 * Colgate Toothpaste
-* 
+* Lifebuoy soap
   … and 10 other common retail product types.
 
 ### Data Collection Process:
